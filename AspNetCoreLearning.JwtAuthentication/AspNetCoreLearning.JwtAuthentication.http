@@ -1,0 +1,6 @@
+@AspNetCoreLearning.JwtAuthentication_HostAddress = http://localhost:5171
+
+GET {{AspNetCoreLearning.JwtAuthentication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
