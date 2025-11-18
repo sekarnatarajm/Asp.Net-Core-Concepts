@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -11,6 +12,7 @@ namespace AspNetCoreLearning.JwtAuthentication.Controllers
     [ApiController]
     public class AccountController(IConfiguration configuration) : ControllerBase
     {
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult Login(User user)
         {
@@ -21,12 +23,18 @@ namespace AspNetCoreLearning.JwtAuthentication.Controllers
             }
             if (!string.IsNullOrEmpty(user.UserName) && !string.IsNullOrEmpty(user.Password))
             {
-                var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345-superSecretKey@345-superSecretKey@345"));
+                var claims = new List<Claim>()
+                {
+                    new Claim("UserId","003"),
+                    new Claim("Role","Technician"),
+                    new Claim("Email","sekar@gmail.com")
+                };
+                var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]));
                 var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
                 var tokeOptions = new JwtSecurityToken(
                     issuer: "https://localhost:5001",
                     audience: "https://localhost:5001",
-                    claims: new List<Claim>(),
+                    claims: claims,
                     expires: DateTime.Now.AddMinutes(5),
                     signingCredentials: signinCredentials
                 );

@@ -1,9 +1,11 @@
+using AspNetCoreLearning.JwtAuthentication.Filters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AspNetCoreLearning.JwtAuthentication.Controllers
 {
-    [Authorize]
+    //[Authorize(Roles = "Technician")]
+    [CustomAuthrizeisation("Technician")]
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
