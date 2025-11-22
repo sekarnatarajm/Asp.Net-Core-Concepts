@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreLearning.ApiVersi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreLearning.JwtAuthentication", "AspNetCoreLearning.JwtAuthentication\AspNetCoreLearning.JwtAuthentication.csproj", "{7B712D10-031F-4665-A075-21FF8721EDAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreLearning.Caching", "AspNetCoreLearning.Caching\AspNetCoreLearning.Caching.csproj", "{92D7155D-C744-46A8-B2CE-40BFACE7D822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreLearning.Configuration", "AspNetCoreLearning.Configuration\AspNetCoreLearning.Configuration.csproj", "{70ED0125-5AFA-4252-8D70-5DBF071093AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7B712D10-031F-4665-A075-21FF8721EDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B712D10-031F-4665-A075-21FF8721EDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B712D10-031F-4665-A075-21FF8721EDAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D7155D-C744-46A8-B2CE-40BFACE7D822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D7155D-C744-46A8-B2CE-40BFACE7D822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D7155D-C744-46A8-B2CE-40BFACE7D822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D7155D-C744-46A8-B2CE-40BFACE7D822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70ED0125-5AFA-4252-8D70-5DBF071093AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70ED0125-5AFA-4252-8D70-5DBF071093AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70ED0125-5AFA-4252-8D70-5DBF071093AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70ED0125-5AFA-4252-8D70-5DBF071093AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
