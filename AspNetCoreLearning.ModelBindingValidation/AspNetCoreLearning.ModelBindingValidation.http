@@ -1,0 +1,6 @@
+@AspNetCoreLearning.ModelBindingValidation_HostAddress = http://localhost:5269
+
+GET {{AspNetCoreLearning.ModelBindingValidation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
