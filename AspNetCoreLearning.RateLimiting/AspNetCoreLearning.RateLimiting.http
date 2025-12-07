@@ -1,0 +1,6 @@
+@AspNetCoreLearning.RateLimiting_HostAddress = http://localhost:5111
+
+GET {{AspNetCoreLearning.RateLimiting_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

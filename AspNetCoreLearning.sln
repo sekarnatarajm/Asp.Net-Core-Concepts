@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreLearning.Configur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreLearning.ModelBindingValidation", "AspNetCoreLearning.ModelBindingValidation\AspNetCoreLearning.ModelBindingValidation.csproj", "{A9122903-1A86-45BC-9F32-EA077B91F8D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreLearning.RateLimiting", "AspNetCoreLearning.RateLimiting\AspNetCoreLearning.RateLimiting.csproj", "{C618F1E2-6935-4119-B893-F6DE22E07104}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A9122903-1A86-45BC-9F32-EA077B91F8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9122903-1A86-45BC-9F32-EA077B91F8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9122903-1A86-45BC-9F32-EA077B91F8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C618F1E2-6935-4119-B893-F6DE22E07104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C618F1E2-6935-4119-B893-F6DE22E07104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C618F1E2-6935-4119-B893-F6DE22E07104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C618F1E2-6935-4119-B893-F6DE22E07104}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
