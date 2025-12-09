@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreLearning.ModelBin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreLearning.RateLimiting", "AspNetCoreLearning.RateLimiting\AspNetCoreLearning.RateLimiting.csproj", "{C618F1E2-6935-4119-B893-F6DE22E07104}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreLearning.FileUploading", "AspNetCoreLearning.FileUploading\AspNetCoreLearning.FileUploading.csproj", "{343181B7-4588-4940-90C4-7A3CE7C4BD45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C618F1E2-6935-4119-B893-F6DE22E07104}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C618F1E2-6935-4119-B893-F6DE22E07104}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C618F1E2-6935-4119-B893-F6DE22E07104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343181B7-4588-4940-90C4-7A3CE7C4BD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343181B7-4588-4940-90C4-7A3CE7C4BD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343181B7-4588-4940-90C4-7A3CE7C4BD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343181B7-4588-4940-90C4-7A3CE7C4BD45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

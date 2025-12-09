@@ -1,0 +1,6 @@
+@AspNetCoreLearning.FileUploading_HostAddress = http://localhost:5196
+
+GET {{AspNetCoreLearning.FileUploading_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
